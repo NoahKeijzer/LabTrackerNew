@@ -8,10 +8,6 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 html {
   position: relative;
   min-height: 100%;
@@ -22,14 +18,27 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1500px;
   margin: auto;
   padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .title {
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 .subtitle {
@@ -38,6 +47,62 @@ body {
   margin-bottom: 1rem;
 }
 
-.student-progress {
+.student-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.student-self {
+  margin-bottom: 2rem;
+}
+.student {
   padding: 1rem;
+  background-color: #FAFAFA;
+  border: 0.1rem solid #E4E4E4;
+  border-radius: 0.4rem;
+}
+
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.student-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.student-progress {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 0.5rem;
+  background-color: #777777;
+  margin: 0;
+  padding: 0.2rem 0.4rem;
+  white-space: nowrap;
+}
+
+.student-progress--finished {
+  background-color: #70c570;
+}
+
+.student-progress--ongoing {
+  background-color: #709bc5;
+}
+
+.student-progress--stuck {
+  background-color: #c57070;
+}
+
+.student-message {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+  color: #595959;
 }

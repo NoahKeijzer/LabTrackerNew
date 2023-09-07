@@ -23,16 +23,244 @@ public class HomeController : Controller
         {
             new ()
             {
+                StudentId = Guid.NewGuid(),
                 Student = new Student { Name = "Noah de Keijzer" },
-                Opdracht = new Opdracht { Naam = "Test 1" },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
                 Voortgang = Voortgang.Afgerond
             },
             new()
             {
-                Student = new Student { Name = "Sefan So " },
-                Opdracht = new Opdracht { Naam = "Test 2"},
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Stefan So " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.Bezig
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
                 Voortgang = Voortgang.ZitVast
-            }
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
+            new()
+            {
+                StudentId = Guid.NewGuid(),
+                Student = new Student { Name = "Kees Koning " },
+                Opdracht = new Opdracht
+                {
+                    OpdrachtId = Guid.NewGuid(), Naam = "Test 1"
+                },
+                Voortgang = Voortgang.ZitVast
+            },
         };
         return View(vm);
     }
