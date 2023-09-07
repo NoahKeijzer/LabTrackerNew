@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Domain.StudentOpdrachtVoortgang>
+
+<div class="container">
+    <span class="subtitle">Opdracht</span>
+    <h1 class="title">@Model.FirstOrDefault()!.Opdracht.Naam </h1>
+    @foreach (var item in Model)
+    {
+        <div class="student-progress">
+            <div class="col">
+                <p>@item.Student.Name</p> </div>
+            <div class="col">
+                <p>@item.Voortgang.ToString()</p> 
+                cd //</div>
+        </div>
+    }
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
