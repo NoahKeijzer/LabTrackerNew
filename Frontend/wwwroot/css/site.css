@@ -18,14 +18,27 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1500px;
   margin: auto;
   padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .title {
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 .subtitle {
@@ -34,12 +47,19 @@ body {
   margin-bottom: 1rem;
 }
 
+.student-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.student-self {
+  margin-bottom: 2rem;
+}
 .student {
   padding: 1rem;
   background-color: #FAFAFA;
   border: 0.1rem solid #E4E4E4;
   border-radius: 0.4rem;
-  margin: 1rem 0;
 }
 
 .student-header {
@@ -47,6 +67,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .student-name {
@@ -63,6 +85,7 @@ body {
   background-color: #777777;
   margin: 0;
   padding: 0.2rem 0.4rem;
+  white-space: nowrap;
 }
 
 .student-progress--finished {
@@ -81,10 +104,5 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
   margin: 0;
-  margin-bottom: 1.5rem;
   color: #595959;
-}
-
-.student-actions {
-  display: flex;
 }
