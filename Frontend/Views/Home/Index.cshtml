@@ -2,6 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+@using Domain
+@using Microsoft.AspNetCore.Http.Features
 @model List<Domain.StudentOpdrachtVoortgang>
 
 <div class="container">
@@ -9,13 +11,65 @@
     <h1 class="title">@Model.FirstOrDefault()!.Opdracht.Naam </h1>
     @foreach (var item in Model)
     {
-        <div class="student-progress">
-            <div class="col">
-                <p>@item.Student.Name</p> </div>
-            <div class="col">
-                <p>@item.Voortgang.ToString()</p> 
-                cd //</div>
+        <div class="student">
+            <div class="student-header">
+                <h2 class="student-name">@item.Student.Name</h2>
+                @if (item.Voortgang.Equals(Voortgang.NietBegonnen))
+                {
+                    <p class="student-progress">Niet begonnen</p>
+                }
+                @if (item.Voortgang.Equals(Voortgang.Bezig))
+                {
+                    <p class="student-progress student-progress--ongoing">Bezig</p>
+                }
+                @if (item.Voortgang.Equals(Voortgang.Afgerond))
+                {
+                    <p class="student-progress student-progress--finished">Afgerond</p>
+                }
+                @if (item.Voortgang.Equals(Voortgang.ZitVast))
+                {
+                    <p class="student-progress student-progress--stuck">Zit vast</p>
+                }
+            </div>
+            <p class="student-message">Hallo, dit is een message box waar studenten hun bericht kunnen achterlaten. Hierin kunnen we aangegeven welke opdracht ze vastlopen en waarmee ze hulp nodig hebben.</p>
+            <div class="student-actions">
+                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="@($"#updateModal_{item.StudentId}_{item.OpdrachtId}")">
+                  Voortgang bewerken
+                </button>
+                <div class="modal fade" id="@($"updateModal_{item.StudentId}_{item.OpdrachtId}")" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Voortgang bewerken</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="form-floating mb-3">
+                            <select class="form-select" id="statusSelect">
+                              <option value="@Voortgang.NietBegonnen" selected="@item.Voortgang.Equals(Voortgang.NietBegonnen)">Niet begonnen</option>
+                              <option value="@Voortgang.Bezig" selected="@item.Voortgang.Equals(Voortgang.Bezig)">Bezig</option>
+                              <option value="@Voortgang.Afgerond" selected="@item.Voortgang.Equals(Voortgang.Afgerond)">Afgerond</option>
+                              <option value="@Voortgang.ZitVast" selected="@item.Voortgang.Equals(Voortgang.ZitVast)">Zit vast</option>
+                          </select>
+                            <label for="statusSelect">Huidige voortgang</label>
+                          </div>
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Laat je bericht hier achter" id="messageInput" style="height: 100px"></textarea>
+                            <label for="messageInput">Laat weten waar je mee zit</label>
+                          </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Terug</button>
+                        <button type="button" class="btn btn-outline-primary">Voortgang bewerken</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
     }
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<script>
+
+</script>
