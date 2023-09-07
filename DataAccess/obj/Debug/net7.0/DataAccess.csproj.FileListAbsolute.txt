@@ -36,3 +36,10 @@ C:\Users\noahd\RiderProjects\Labtracker\DataAccess\obj\Debug\net7.0\ref\DataAcce
 C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\DomainServices.deps.json
 C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\DomainServices.runtimeconfig.json
 C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\DomainServices.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Humanizer.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Npgsql.dll
+C:\Users\noahd\RiderProjects\Labtracker\DataAccess\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

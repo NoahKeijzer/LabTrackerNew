@@ -1,5 +1,6 @@
 ﻿using DataAccess.Context;
 using Domain;
+using Domain.Models;
 using DomainServices.Interfaces;
 
 namespace DataAccess.Repositories;

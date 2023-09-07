@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model List<Domain.StudentOpdrachtVoortgang>
+@model List<Domain.Models.StudentOpdrachtVoortgang>
 
 <div class="container">
     <span class="subtitle">Opdracht</span>
@@ -13,9 +13,17 @@
             <div class="col">
                 <p>@item.Student.Name</p> </div>
             <div class="col">
-                <p>@item.Voortgang.ToString()</p> 
-                cd //</div>
-        </div>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+                
+                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
     }
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
