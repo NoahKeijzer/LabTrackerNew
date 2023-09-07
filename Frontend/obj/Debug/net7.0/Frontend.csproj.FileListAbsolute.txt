@@ -122,3 +122,10 @@ C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DomainServices
 C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DomainServices.exe
 C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DomainServices.dll
 C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DomainServices.pdb
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DataAccess.deps.json
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DataAccess.exe
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\Npgsql.dll
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DataAccess.dll
+C:\Users\noahd\RiderProjects\Labtracker\Frontend\bin\Debug\net7.0\DataAccess.pdb

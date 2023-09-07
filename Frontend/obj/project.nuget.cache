@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oLDdphxDV5OcmOqZSZ44MVSWRbtWxI+4c9Pf9TZfEluqaUy87bgYJvaCMr3MShpcUeGjfqej177516GRCarxiQ==",
+  "dgSpecHash": "qbDDup7CDQ4fZAipy8S1cH+0btkMIKor4kbs38NnBpgMGLBpJLUdgohR06phwvTyGiNvgcpjJbm1yH0Oue0CFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\noahd\\RiderProjects\\Labtracker\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,8 @@
     "C:\\Users\\noahd\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\noahd\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\noahd\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\noahd\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\noahd\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\noahd\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\noahd\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\noahd\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
